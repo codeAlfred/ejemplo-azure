@@ -8,7 +8,7 @@ def index():
 
 @app.route('/prueba')
 def prueba():
-    return render_template("prueba.html")
+    return render_template('prueba.html')
 
 
 if __name__ == '__main__':
